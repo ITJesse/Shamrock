@@ -27,7 +27,6 @@
 
 - 一键移植：本项目基于 go-cqhttp 的文档进行开发实现。
 - 平行部署：可多平台部署，未来将会支持 Docker 部署的教程。  
-- 强行续命：Shamrock支持提供 QSIGN API 服务。
 
 > 若您追求小而轻便的Bot服务, [Chronocat](https://chronocat.vercel.app/)是您的不二之选，而不是迁移到闭源框架。
 

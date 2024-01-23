@@ -24,6 +24,9 @@ jobs:
           java-version: 17
           cache: 'gradle'
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        
       - name: Setup cmake
         run: |
           echo "y" | sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "cmake;3.22.1" --sdk_root=${ANDROID_SDK_ROOT} &> /dev/null
